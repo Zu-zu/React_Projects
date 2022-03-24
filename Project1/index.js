@@ -1,1 +1,23 @@
-ReactDOM.render(<ul>2 parter has two parts:<li>Part 1</li><li>Part 2</li></ul>, document.getElementById("root"));
+
+const page = (
+    <div>
+        <h1 className ="header">This is JSX!</h1>
+        <p>This is a paragraph</p>
+    </div>
+)
+
+const navbar = (
+    <nav>
+        <h1>Bob's Bistro</h1>
+        <ul>
+            <li>Menu</li>
+            <li>About</li>
+            <li>Contract</li>
+        </ul>
+    </nav>
+)
+ReactDOM.render(
+    navbar,
+    document.getElementById("root")
+    );
+
