@@ -1,1 +1,1 @@
-ReactDOM.render(<h1>Learning React from the beginning again</h1>, document.getElementById("root"));
+ReactDOM.render(<ul>2 parter has two parts:<li>Part 1</li><li>Part 2</li></ul>, document.getElementById("root"));
