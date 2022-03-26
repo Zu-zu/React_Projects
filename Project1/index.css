@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(38, 39, 46);
+    color: antiquewhite;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 10px rgb(20, 22, 24);
+    padding-right:60px;
+    padding-left: 0;
+    margin-left: 0;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    width: 50px;
+}
+
+.footer {
+    width: 120%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+}
+
+.footer > p {
+    padding-left: 30px;
+}
