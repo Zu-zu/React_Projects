@@ -1,23 +1,21 @@
+//import React from "react"
+//import ReactDOM from "react-dom"
+
 
 const page = (
     <div>
-        <h1 className ="header">This is JSX!</h1>
-        <p>This is a paragraph</p>
+        <img src="./React-icon.png" style={{width: 30 + px, border: 5 + px}} ></img>
+        <h1 className ="header">Fun facts about React</h1>
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+        </ul>
     </div>
 )
 
-const navbar = (
-    <nav>
-        <h1>Bob's Bistro</h1>
-        <ul>
-            <li>Menu</li>
-            <li>About</li>
-            <li>Contract</li>
-        </ul>
-    </nav>
-)
+
 ReactDOM.render(
-    navbar,
+    page,
     document.getElementById("root")
-    );
+)
 
